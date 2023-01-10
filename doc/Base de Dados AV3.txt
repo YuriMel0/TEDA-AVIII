@@ -1,0 +1,26 @@
+UFRJ - Universidade Federal do Rio de Janeiro
+MAE015 - Tóp. Especiais em Engenharia de dados A: Estrutura de dados
+Autores:
+Nome: Rhuan Justo
+DRE: 118043398
+
+Nome: Davi Richards
+DRE: 119022078
+
+Nome: Sebastião Rodrigo
+DRE: 117099621
+
+Nome: Yuri Ferreira Melo
+DRE: 120081378
+
+Vamos agora descrever a base de dados utilizada no projeto 3.
+
+Criamos um arquivo de texto chamado "pts_qt.txt", onde cada linha desse arquivo
+representa um ponto (x,y) que iremos acrescentar à quadtree.
+
+Inicialmente, acrescentamos 15 pontos aleatoriamente gerados pelo módulo random de
+valores entre 1 <= x <= 135 e 1 <= y <= 45. Já podemos perceber que decidimos escolher
+uma tela de tamanho m = 45 (número de linhas da matriz) e n = 135 (número de colunas da matriz)
+
+Depois disso, acrescentamos mais 14 pontos desenhando uma cruz, que será utilizada
+para testar a funcionalidade do programa.

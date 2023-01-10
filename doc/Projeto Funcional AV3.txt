@@ -1,0 +1,40 @@
+UFRJ - Universidade Federal do Rio de Janeiro
+MAE015 - Tóp. Especiais em Engenharia de dados A: Estrutura de dados
+Autores:
+Nome: Rhuan Justo
+DRE: 118043398
+
+Nome: Davi Richards
+DRE: 119022078
+
+Nome: Sebastião Rodrigo
+DRE: 117099621
+
+Nome: Yuri Ferreira Melo
+DRE: 120081378
+
+A avaliação III do curso trabalha com as quad-tree's, um modelo de árvore não balanceada
+onde cada nó possui 4 filhos ou nenhum.
+
+Neste projeto, implementamos uma quad-tree como uma classe orientada a objetos, bem
+como uma classe ponto para representar os pontos (x,y), além de uma classe Rect
+que representa um retângulo.
+
+O retângulo é criado passando um ponto inicial (x0,y0) e a sua largura e altura.
+
+Essa classe retângulo é a base da nossa quad-tree, visto que representamos os nós
+da árvore como retângulos.
+
+A quad-tree foi implementada utilizando uma recursão, onde vemos a cada iteração
+se há ou não a necessidade de subdividir o nó com base nos pontos que ela já possui.
+
+Criamos também os três métodos de consulta pedidos, a consulta de um único ponto na
+quad-tree, a consulta por uma janela passada e por direção cardeal.
+
+Não implementamos a atualização do ponto nem a remoção do ponto, pensamos que seria
+muito complicado implementar esses métodos pela forma como nossa quad-tree está
+codificada.
+
+Na nossa base de dados, implementamos uma cruz para fazer o teste da funcionalidade
+do programa.
+
